@@ -1,0 +1,125 @@
+
+.sticky {
+  //position: -webkit-sticky;
+  //position: -moz-sticky;
+  //position: -ms-sticky;
+  //position: -o-sticky;
+ // position: sticky;
+  //top: 15px;
+}
+.test_st *{
+	//УБРАТЬ!!
+	top: 0px;
+	//color: red;
+	position: sticky;
+}
+
+
+/*		HEADER		*/
+
+.ll_logo{
+	width: 200px;
+}
+
+/*	END	HEADER		*/
+
+
+
+
+
+
+
+/*		NAV		*/
+aside div#social_buttoms a{
+		width: 48px;
+		margin:5px 5px 10px;
+		height: 48px;
+		background-size: 240px 48px;
+	}
+
+#social_buttoms a{
+		display: inline-block;
+		text-decoration: none;
+		width: 32px;
+		height: 32px;
+	}
+#social_buttoms a:last-child{margin-right:0;}
+
+ul.button-group {
+	color: red;
+	font-size: .9 em;
+}
+
+
+
+top: 10px;
+	color: red;
+	position: sticky;
+}
+/*	END	NAV		*/
+
+
+
+
+.cat_label{
+	position: relative;
+	top: 0;
+}
+
+.avatar img{
+	background-color: #FFF;
+	border-radius: 50%;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.55);
+	position: relative;
+	left: 25px;
+	top: -22px;
+	width: 50px;
+	height: 50px;
+}
+
+
+
+
+footer{
+	font-family: arial,tahoma;
+	padding-top: 11px;
+	background-color: #232D3D;
+	color: #FFF;
+	//background-color: red;
+}
+
+footer div *{font-family: arial,tahoma;}
+
+
+
+a.footer_logo{
+		//margin-top: 11px;
+		//zdelat kartinky po menchse-small logo
+		width: 50px;
+		height: 55px;
+		display: block;
+		//border: 1px dotted gold;
+		background-image: url('/img/clear_logo_white.png');
+		background-repeat: no-repeat;
+		background-size: 140px;
+		background-position: center;
+	}
+
+
+
+	#footer_social_buttoms a{
+		float: right;
+		display: inline-block;
+		text-decoration: none;
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		margin-left:6px;
+		margin-bottom: 3px;
+	}
+
+	#footer_social_buttoms a:hover{
+	 	transform: rotate(360deg);
+		transition: all 0.5s ease 0s;
+		-webkit-transition: all 0.7s ease 0s;
+	}
