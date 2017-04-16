@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin 
+Disallow: /search
+Disallow: /*?*
+Allow: /post
+Allow: /posts
+Allow: /excerptions
+Host: liveandlearn.com.ua
+Sitemap: http://liveandlearn.com.ua/sitemap.xml
